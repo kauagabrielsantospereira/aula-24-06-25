@@ -1,6 +1,6 @@
 programa[
 funcao inicio(){
-    real num01, num02, soma, mult
+    real num01, num02, soma, mult, div
 	escreva("informe o 1° numero: ")
 	leia(num01)
 	
@@ -14,6 +14,9 @@ funcao inicio(){
         mult = num01 * num02
 
         escreva("a multiplicação dos numeros: ", mult)
+		
+		div = num01 / num02
+		escreva("a divisão dos numeros: ",div)
 	
  }
 }
